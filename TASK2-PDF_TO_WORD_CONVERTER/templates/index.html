@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Pdf to Doc</title>
+    <style>
+        *
+         {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body
+        {
+            height: 100%;
+            background-color:rgb(217, 218, 220);
+            
+        }
+        div 
+        {
+            background:#018786;
+            border-bottom: 5px  solid rgb(49, 107, 152);
+        }
+        div h1{
+            color:#fff;
+            text-align: center;
+        }
+        #inp
+        {
+            align-items: 50%;
+        }
+        form {
+            height: 80%;
+            background:linear-gradient(-240deg,#018786,#03dac6);
+            border: 3px solid rgb(12, 157, 22);
+            border-radius: 10px;
+            width: 40%;
+            min-width: 320px;
+            color: white;
+            margin: auto;
+            margin-top: 150px;
+            padding: 0px 10px;
+        }
+        form input{
+            margin: 5px auto;
+            border: 2px solid rgb(17, 130, 45);
+            margin-bottom: 60px;
+            margin-top: 60px;
+            width: 60%;
+            cursor: pointer;
+            font-weight: bolder;
+        }
+        
+        .btn 
+        {
+            width: 50%;
+            display: block;
+            border-width: 3px;
+            color: #fff;
+            font-weight: bolder;
+            background:transparent;
+        }
+    </style>
+</head>
+<body>
+        <div>
+            <h1>
+                UPLOAD YOUR PDF
+            </h1>
+        </div>
+        <form action="/index" method="POST" enctype="multipart/form-data">
+            <input type="file" name="filename" id="inp" style="cursor:pointer;">
+            <input class="btn btn-outline-success" type="submit" value="Upload" >
+        </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+</html>
