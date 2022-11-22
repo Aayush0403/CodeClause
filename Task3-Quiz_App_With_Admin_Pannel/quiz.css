@@ -1,0 +1,264 @@
+body,html
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    background-image: url("images/quiz.jpg");
+    background-size: 100% 100%;
+}
+.btn
+{
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn button
+{
+    margin: 30px;
+    width: 200px;
+    height: 40px;
+    background-color:rgb(5, 18, 61);
+    cursor: pointer;
+    color: #fff;
+    font-weight: bolder;
+    border: 2px solid yellowgreen;
+}
+.login
+{
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 50px;
+    visibility: hidden;
+    background-color:rgba(255,255,255, 0.07);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 40px rgba(8,7,16, 0.6);
+}
+.login #button
+{
+    background-color: rgb(14, 2, 64);
+    border: 2px solid yellowgreen;
+    color: #fff;
+    font-weight: bolder;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+.login label
+{
+    color:#fff;
+}
+.que
+{
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    visibility: hidden;
+    background-color:rgba(225, 218, 218, 0.911);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 40px rgba(40, 40, 43, 0.6);
+    height: 40%;
+    width: 40%;
+}
+.que #submit
+{
+    float: left;
+    margin-right: 10px;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(58, 148, 62);
+    color: #fff;
+    font-weight: bolder;
+}
+.que #next
+{
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(14, 2, 64);
+    color: #fff;
+    font-weight: bolder;
+}
+
+.status
+{
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 200px;
+    width: 60%;
+    text-align: center;
+    color: rgba(157, 6, 6, 0.96);
+    visibility: hidden;
+    background-color:rgba(255, 255, 255, 0.11);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 40px rgba(8,7,16, 0.6);
+}
+.status #back
+{
+    background-color: rgb(14, 2, 64);
+    color: #fff;
+    font-weight: bolder;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    
+}
+.admin
+{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    visibility:hidden;
+    background-color:rgba(255, 255, 255, 0.11);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 40px rgba(8,7,16, 0.6);
+    height: 600px;
+    overflow-y: scroll;
+
+}
+.admin input
+{
+    background-color: rgb(14, 2, 64);
+    border: 2px solid yellowgreen;
+    margin: 1px;
+    color: #fff;
+    font-weight: bolder;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+.para
+{
+    color:red;
+}
+.text
+{
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.que input
+{
+    height: 15px;
+    width: 15px;    
+}
+#quest
+{
+    font-weight: bolder;
+   
+}
+.img
+{
+    height: 20px;
+    width: auto;
+    padding-left: 15px;
+    position: relative;
+    top: 3px;
+}
+#no
+{
+    font-weight: bolder;
+    color: rgba(198, 4, 4, 0.79);
+    padding-right: 7px;
+}
+.sec
+{
+    
+    height: 30px;
+    margin: 2px;
+}
+.extra
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    visibility: hidden;
+    background-color:rgba(255, 255, 255, 0.11);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 40px rgba(8,7,16, 0.6);
+    border-radius: 4px;
+
+}
+  .extra  #nextbtn
+{
+    background-color: rgb(74, 208, 40);
+    color: #fff;
+    font-weight: bolder;
+    width: 80px;
+    height: 30px;
+    cursor: pointer; 
+}
+.extra #nextque
+{
+    width: 300px;
+    height: 20px;
+}
+.prev
+{
+    background-color: rgb(14, 2, 64);
+    color: #fff;
+    font-weight: bolder;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+#remove
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    visibility: hidden;
+    background-color:rgba(255, 255, 255, 0.11);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 40px rgba(8,7,16, 0.6);
+    border-radius: 4px;
+}
+#ent
+{
+    background-color: rgb(7, 69, 108);
+    border: 2px solid yellowgreen;
+    color: #fff;
+    font-weight: bolder;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+}
+#rems
+{
+    font-weight: bolder;
+}
+#rem
+{
+    height: 20px;
+}
+
+@media screen and (max-width:515px)
+{
+    .que
+    {
+        height: 45%;
+        width: 55%;
+    }
+}
+
